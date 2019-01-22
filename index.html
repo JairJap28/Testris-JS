@@ -1,0 +1,55 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tetris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Organice board -->
+    <section class="container">
+
+        <section id="help">
+
+            <section id="sectionScore">
+                <h3>Score</h3>
+                <h3 id="score"></h3>
+            </section>
+
+            <section id="containerStart">
+                <h6>Next Piece</h6>
+                <button onclick="start()">Start</button>
+            </section>
+            
+            <!-- Canvas for show next piece -->
+            <canvas id="nextPiece" width="400" height="220"></canvas>
+
+            <section id="controls">
+                <h5>Controls</h5>
+                <hr>
+                <p>
+                    Arrow Down - Move Down <br>
+                    Arrow Left - Move Left <br>
+                    Arrow Right - Move Right <br>
+                </p>
+                <hr>
+                <p>
+                    R - Rotate Right <br>
+                    L - Rotate Left <br>
+                </p>
+            </section>
+
+            <section id="scoreBoard">
+                <h5>Scoreboard</h5>
+                <hr>
+                <ol id="list"></ol>
+            </section>
+        </section> <!-- Close help section -->
+        <!-- Canvas for the game -->
+        <canvas id="tetris" width="240" height="400"></canvas>
+    </section>
+    <script src="tetris.js"></script>
+</body>
+</html>

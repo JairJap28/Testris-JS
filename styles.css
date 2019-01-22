@@ -1,0 +1,125 @@
+body{
+    background: #202028;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+#sectionScore{
+    border: 3px;
+    border-style: double;
+    border-color: white;
+    margin: 5px 5px 20px 5px;
+}
+
+#containerStart{
+    width: 400px;
+    display: flex;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+
+#containerStart button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    border-radius: 20px;
+    border-style: none;
+}
+
+#containerStart button:hover{
+    background: #aaa;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    box-shadow: 2px 1px 5px white;
+}
+
+
+h3{
+    display: inline;
+}
+
+.container{
+    display: flex;
+    background: gray;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+}
+
+canvas#tetris{
+    width: 450px;
+    height: 80vh;
+    border: 5px;
+    border-style: solid;
+    border-color: #fff;
+
+}
+
+canvas#nextPiece{
+    border: 3px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+#help{
+    margin: 0 10px 0 0;
+}
+
+#help h6{
+    text-align: start;
+    margin: 0 0 0 5px;
+    font-weight: 1;
+}
+
+#controls{
+    width: 400px;
+    margin: 5px auto;
+    text-align: start;
+    background: #000;
+    border: 3px;
+    border-style: solid;
+    border-color: #fff;
+    padding: 0 0 10px 0;
+}
+
+#controls h5{
+    margin: 10px 0 10px 5px;
+    text-align: center;
+}
+
+#controls hr:first-of-type{
+    margin: 0 0 10px 0;
+}
+
+#controls hr:last-of-type{
+    width: 100px;
+    margin: 10px 0 10px 5px;
+}
+
+#controls p{
+    font-size: 16px;
+    margin: 0 0 0 10px;
+}
+
+#scoreBoard{
+    height: 220px;
+    background: #000;
+    border: 3px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+#scoreBoard h5{
+    margin: 10px 0 0 0;
+}
+
+#list{
+    font-size: 16px;
+    text-align: start;
+}
