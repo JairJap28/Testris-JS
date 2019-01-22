@@ -10,3 +10,6 @@ Press the button to start
 
 #### Tetris full
 ![tetris2](https://user-images.githubusercontent.com/40800776/50117383-d8ba3d00-021a-11e9-9c98-a64cfe7d0500.PNG)
+
+
+Developed by Jair Jimenez
